@@ -1,0 +1,5 @@
+Average prices by category:
+Category
+Kids' Fashion      $56.51
+Men's Fashion      $53.67
+Women's Fashion    $57.09

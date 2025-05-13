@@ -1,0 +1,7 @@
+Top 10 brands by rating:
+Brand
+Gucci     3.16
+H&M       3.02
+Zara      3.00
+Adidas    2.93
+Nike      2.88

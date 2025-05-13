@@ -1,0 +1,24 @@
+data_cleaning_task:
+  description: >
+    Load the dataset from `data/Products.csv`, clean it (handle missing values, duplicates),
+    and save the processed data to `data/cleaned_products.csv`.
+  expected_output: Cleaned dataset file
+  agent: data_preparer
+
+pattern_analysis_task:
+  description: >
+    Analyze the cleaned dataset and generate the following statistical reports
+    Save all analysis outputs in the "knowledge/patterns/" directory.
+  expected_output: Analysis report files in knowledge/patterns/
+  agent: pattern_analyst
+  dependencies:
+    - data_cleaning_task
+
+visualization_task:
+  description: >
+    Generate visualizations using simple filenames without paths
+    (e.g., "heatmap.png" not "knowledge/plots/heatmap.png")
+  expected_output: Visualization images in knowledge/plots/
+  agent: visualization_engineer
+  dependencies:
+    - pattern_analysis_task  
