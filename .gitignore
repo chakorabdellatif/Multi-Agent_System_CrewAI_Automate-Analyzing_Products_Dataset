@@ -1,0 +1,18 @@
+# Virtual environments (env/ is already committed historically — see README Known Issues;
+# this prevents any *new* venv from being added going forward)
+env/
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables
+.env
+*.env
+
+# OS / editor
+.DS_Store
+.vscode/
