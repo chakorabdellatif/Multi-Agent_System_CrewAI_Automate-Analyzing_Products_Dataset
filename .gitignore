@@ -16,3 +16,12 @@ __pycache__/
 # OS / editor
 .DS_Store
 .vscode/
+
+
+# Local Environment & Staging Security
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.wiki-staging
+temp_*
