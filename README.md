@@ -1,5 +1,8 @@
 # Multi-Agent_System_CrewAI_Automate-Analyzing_Products_Dataset
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/chakorabdellatif/Multi-Agent_System_CrewAI_Automate-Analyzing_Products_Dataset) [![GitHub release](https://img.shields.io/github/v/release/chakorabdellatif/Multi-Agent_System_CrewAI_Automate-Analyzing_Products_Dataset?color=blue&label=release)](https://github.com/chakorabdellatif/Multi-Agent_System_CrewAI_Automate-Analyzing_Products_Dataset/releases) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
+
+
 ![CI Pipeline](https://github.com/chakorabdellatif/Multi-Agent_System_CrewAI_Automate-Analyzing_Products_Dataset/actions/workflows/ci_qa_monitoring.yml/badge.svg)
 [![GitHub Wiki](https://img.shields.io/badge/Documentation-GitHub%20Wiki-blue.svg)](https://github.com/chakorabdellatif/Multi-Agent_System_CrewAI_Automate-Analyzing_Products_Dataset/wiki)
 [![Quality Gate](https://img.shields.io/badge/Quality%20Gate-Passed-brightgreen.svg)](docs/MONITORING_AND_QA.md)
