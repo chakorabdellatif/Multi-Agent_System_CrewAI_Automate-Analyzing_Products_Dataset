@@ -6,6 +6,8 @@
 ![CI Pipeline](https://github.com/chakorabdellatif/Multi-Agent_System_CrewAI_Automate-Analyzing_Products_Dataset/actions/workflows/ci_qa_monitoring.yml/badge.svg)
 [![GitHub Wiki](https://img.shields.io/badge/Documentation-GitHub%20Wiki-blue.svg)](https://github.com/chakorabdellatif/Multi-Agent_System_CrewAI_Automate-Analyzing_Products_Dataset/wiki)
 [![Quality Gate](https://img.shields.io/badge/Quality%20Gate-Passed-brightgreen.svg)](docs/MONITORING_AND_QA.md)
+[![Sponsor Bosaj](https://img.shields.io/badge/Sponsor-Bosaj-ea4aaa?style=flat-square&logo=github-sponsors)](https://github.com/sponsors/Bosaj)
+[![Support chakorabdellatif](https://img.shields.io/badge/Support-chakorabdellatif-ea4aaa?style=flat-square&logo=github)](https://github.com/chakorabdellatif)
 
 ---
 
@@ -153,8 +155,8 @@ This project is licensed under the MIT License — see [LICENSE](LICENSE).
 
 ## Contributors
 
-- [Abdellatif Chakor](https://github.com/chakorabdellatif) (chakorabdellatif)
-- [Oussama ELHADJI](https://github.com/Bosaj) (Bosaj)
+- [Abdellatif Chakor](https://github.com/chakorabdellatif) (chakorabdellatif) [![Support](https://img.shields.io/badge/Support-chakorabdellatif-ea4aaa?style=flat-square&logo=github)](https://github.com/chakorabdellatif)
+- [Oussama ELHADJI](https://github.com/Bosaj) (Bosaj) [![Sponsor](https://img.shields.io/badge/Sponsor-Bosaj-ea4aaa?style=flat-square&logo=github-sponsors)](https://github.com/sponsors/Bosaj)
 
 Supervised by Bentaleb Asmae.
 
