@@ -1,12 +1,13 @@
-import pandas as pd
-import os
 from pathlib import Path
+
+import pandas as pd
+
 
 class DataManager:
     _raw_df = None
     _processed_df = None
     _processed_path = Path("data/cleaned_products.csv")
-    
+
     @classmethod
     def load_csv(cls, path: str) -> None:
         """Load raw data from CSV and initialize processed data"""
@@ -16,7 +17,7 @@ class DataManager:
             cls._processed_df = cls._raw_df.copy()
             print(f"✅ Successfully loaded raw data from {path}")
         except Exception as e:
-            raise ValueError(f"Error loading CSV: {str(e)}")
+            raise ValueError(f"Error loading CSV: {e!s}") from e
 
     @classmethod
     def get_df(cls, processed: bool = True) -> pd.DataFrame:
@@ -34,7 +35,7 @@ class DataManager:
             cls._save_processed_data()
             print(f"💾 Saved processed data to {cls._processed_path}")
         except Exception as e:
-            raise RuntimeError(f"Error saving processed data: {str(e)}")
+            raise RuntimeError(f"Error saving processed data: {e!s}") from e
 
     @classmethod
     def _save_processed_data(cls) -> None:
@@ -48,11 +49,11 @@ class DataManager:
         try:
             if not cls._processed_path.exists():
                 raise FileNotFoundError(f"Processed data not found at {cls._processed_path}")
-            
+
             cls._processed_df = pd.read_csv(cls._processed_path)
             print(f"🔁 Loaded processed data from {cls._processed_path}")
         except Exception as e:
-            raise RuntimeError(f"Error loading processed data: {str(e)}")
+            raise RuntimeError(f"Error loading processed data: {e!s}") from e
 
     @classmethod
     def reset(cls) -> None:

@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 import sys
 import warnings
+
 from ai_analysis.crew import AiAnalysis
 
 warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
@@ -13,7 +14,7 @@ def run():
     try:
         AiAnalysis().crew().kickoff(inputs={})
     except Exception as e:
-        raise Exception(f"An error occurred while running the crew: {e}")
+        raise Exception(f"An error occurred while running the crew: {e}") from e
 
 
 def train():
@@ -21,13 +22,9 @@ def train():
     Train the crew for a given number of iterations.
     """
     try:
-        AiAnalysis().crew().train(
-            n_iterations=int(sys.argv[1]),
-            filename=sys.argv[2],
-            inputs={}
-        )
+        AiAnalysis().crew().train(n_iterations=int(sys.argv[1]), filename=sys.argv[2], inputs={})
     except Exception as e:
-        raise Exception(f"An error occurred while training the crew: {e}")
+        raise Exception(f"An error occurred while training the crew: {e}") from e
 
 
 def replay():
@@ -37,7 +34,7 @@ def replay():
     try:
         AiAnalysis().crew().replay(task_id=sys.argv[1])
     except Exception as e:
-        raise Exception(f"An error occurred while replaying the crew: {e}")
+        raise Exception(f"An error occurred while replaying the crew: {e}") from e
 
 
 def test():
@@ -45,10 +42,6 @@ def test():
     Test the crew execution and return the results.
     """
     try:
-        AiAnalysis().crew().test(
-            n_iterations=int(sys.argv[1]),
-            eval_llm=sys.argv[2],
-            inputs={}
-        )
+        AiAnalysis().crew().test(n_iterations=int(sys.argv[1]), eval_llm=sys.argv[2], inputs={})
     except Exception as e:
-        raise Exception(f"An error occurred while testing the crew: {e}")
+        raise Exception(f"An error occurred while testing the crew: {e}") from e
