@@ -154,6 +154,7 @@ No committed secrets (API keys, tokens, credentials) were found in this project'
 This project is licensed under the MIT License — see [LICENSE](LICENSE).
 
 ## Contributors
+<!-- Co-maintained by Bosaj & chakorabdellatif -->
 
 - [Abdellatif Chakor](https://github.com/chakorabdellatif) (chakorabdellatif) [![Support](https://img.shields.io/badge/Support-chakorabdellatif-ea4aaa?style=flat-square&logo=github)](https://github.com/chakorabdellatif)
 - [Oussama ELHADJI](https://github.com/Bosaj) (Bosaj) [![Sponsor](https://img.shields.io/badge/Sponsor-Bosaj-ea4aaa?style=flat-square&logo=github-sponsors)](https://github.com/sponsors/Bosaj)
