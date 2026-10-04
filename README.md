@@ -8,13 +8,28 @@
 [![Quality Gate](https://img.shields.io/badge/Quality%20Gate-Passed-brightgreen.svg)](docs/MONITORING_AND_QA.md)
 [![Sponsor Bosaj](https://img.shields.io/badge/Sponsor-Bosaj-ea4aaa?style=flat-square&logo=github-sponsors)](https://github.com/sponsors/Bosaj)
 [![Support chakorabdellatif](https://img.shields.io/badge/Support-chakorabdellatif-ea4aaa?style=flat-square&logo=github)](https://github.com/chakorabdellatif)
+[![Streamlit App](https://img.shields.io/badge/Streamlit-Interactive%20CrewAI%20Dashboard-FF4B4B?style=flat&logo=streamlit&logoColor=white)](https://share.streamlit.io)
 
 ---
 
-A 3-agent [CrewAI](https://www.crewai.com/) pipeline that cleans a fashion-products CSV, computes descriptive statistics, and generates matplotlib/seaborn chart images — built as a school project (ENIAD, supervised by Bentaleb Asmae).
+A 3-agent [CrewAI](https://www.crewai.com/) pipeline and interactive **Streamlit Dashboard** that cleans a fashion-products CSV, computes descriptive statistics, and generates real-time Plotly charts and executive markdown reports — built as a school project (ENIAD, supervised by Bentaleb Asmae).
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.10--3.12-blue.svg)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Ready-FF4B4B?logo=streamlit)](streamlit_app.py)
+
+---
+
+## 🌟 Interactive Streamlit Dashboard
+
+Launch the interactive 3-agent analysis dashboard:
+```bash
+pip install -r requirements.txt
+streamlit run streamlit_app.py
+```
+- **🤖 Agent 1: Data Preparation Analyst** — Live dataset preview, null/duplicate removal, IQR outlier filtering.
+- **📈 Agent 2: Pattern Detection Scientist** — Category price benchmarks, top brand ratings, color analysis.
+- **📊 Agent 3: Visualization Specialist** — Interactive Plotly histograms, bar charts, price-vs-rating scatter plots, and markdown executive report generator.
 
 ---
 
