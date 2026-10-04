@@ -8,11 +8,13 @@
 [![Quality Gate](https://img.shields.io/badge/Quality%20Gate-Passed-brightgreen.svg)](docs/MONITORING_AND_QA.md)
 [![Sponsor Bosaj](https://img.shields.io/badge/Sponsor-Bosaj-ea4aaa?style=flat-square&logo=github-sponsors)](https://github.com/sponsors/Bosaj)
 [![Support chakorabdellatif](https://img.shields.io/badge/Support-chakorabdellatif-ea4aaa?style=flat-square&logo=github)](https://github.com/chakorabdellatif)
+[![Hugging Face Space](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Live%20Space-yellow?style=flat&logo=huggingface&logoColor=white)](https://huggingface.co/spaces/bosaj/multi-agent-crewai-analytics)
+[![Live Web App](https://img.shields.io/badge/Live%20Web%20App-CrewAI%20Intelligence-brightgreen?logo=googlechrome&logoColor=white)](https://bosaj-multi-agent-crewai-analytics.static.hf.space)
 [![Streamlit App](https://img.shields.io/badge/Streamlit-Interactive%20CrewAI%20Dashboard-FF4B4B?style=flat&logo=streamlit&logoColor=white)](https://share.streamlit.io)
 
 ---
 
-A 3-agent [CrewAI](https://www.crewai.com/) pipeline and interactive **Streamlit Dashboard** that cleans a fashion-products CSV, computes descriptive statistics, and generates real-time Plotly charts and executive markdown reports — built as a school project (ENIAD, supervised by Bentaleb Asmae).
+A 3-agent [CrewAI](https://www.crewai.com/) pipeline and interactive **Streamlit / Web Dashboard** ([Live Web App](https://bosaj-multi-agent-crewai-analytics.static.hf.space)) that cleans a fashion-products CSV, computes descriptive statistics, and generates real-time Plotly charts and executive markdown reports — built as a school project (ENIAD, supervised by Bentaleb Asmae).
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.10--3.12-blue.svg)
